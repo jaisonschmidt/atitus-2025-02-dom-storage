@@ -1,0 +1,10 @@
+body {
+    margin: 0;
+}
+
+.card {
+    border: 1px solid black;
+    max-width: 400px;
+    padding: 20px;
+    text-align: center;
+}
