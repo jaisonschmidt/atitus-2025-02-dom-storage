@@ -9,7 +9,25 @@ body {
     margin: 0;
 }
 
+.dark {
+    background-color: black;
+    color: white;
+}
+
+.dark .card {
+    background-color: gray;
+}
+
+.light #lightBtn {
+    display: none;
+}
+
+.dark #darkBtn {
+    display: none;
+}
+
 .card {
+    background-color: rgb(235, 233, 233);
     border: 1px solid black;
     border-radius: 10px;
     height: 150px;
